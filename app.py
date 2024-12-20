@@ -14,6 +14,6 @@ if st.button("Enviar"):
     
     if response.status_code == 200:
         answer = response.json()["answer"]
-        st.write(f"Respuesta: {answer}")
+        st.write(f"{answer}")
     else:
         st.write("Error al obtener la respuesta. Inténtalo de nuevo.")
