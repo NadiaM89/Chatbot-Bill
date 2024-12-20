@@ -17,11 +17,9 @@ def connect_cohere():
 
     
 # Inicialización de ChromaDB
-def connect_database():
-    COLLECTION_NAME = 'azureAI'
-    PATH_CONEXION="C:\\Users\\nmask\\OneDrive\\Desktop\\GET_TALENT\\ChromaDB"
-    client = chromadb.PersistentClient(path=PATH_CONEXION)
-    collection = client.get_collection(name=COLLECTION_NAME)
+def connect_database(name_coleccion= COLLECTION_NAME, path_coleccion = PATH_CONEXION):
+    client = chromadb.PersistentClient(path=path_coleccion)
+    collection = client.get_collection(name=name_coleccion)
     return collection
 
 

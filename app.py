@@ -1,10 +1,12 @@
 import streamlit as st
 import requests
 
-st.title("BILL")
+
+# Título con emoji de lentes al lado del nombre "BILL"
+st.title("BILL 🤓")
 
 # Entrada del usuario
-user_input = st.text_input("Haz una pregunta:")
+user_input = st.text_input("¡Hazme una pregunta!:")
 
 if st.button("Enviar"):
     # Realizar la solicitud a la API de FastAPI
@@ -15,5 +17,3 @@ if st.button("Enviar"):
         st.write(f"Respuesta: {answer}")
     else:
         st.write("Error al obtener la respuesta. Inténtalo de nuevo.")
-
-
