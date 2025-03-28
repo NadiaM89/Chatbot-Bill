@@ -10,3 +10,5 @@ En la carpeta AI-102 se encuentra el material de estudio para la certificación 
 En la carpeta load_database se encuentra el codigo correspondiente a carga de documentos en la base de datos vectorial.
 
 Para más detalles del funcionamiento del código, este se encuentra comentado en cada una de las notebooks correspondientes.
+
+Contacto: https://www.linkedin.com/in/nadia-maskarinec/
