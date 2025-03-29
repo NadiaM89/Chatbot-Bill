@@ -1,9 +1,11 @@
-La documentación del proyecto se encuentra en:
+Esta es la Versión 2 del ChatBot Bill. 
+En esta versión se quitó el análisis de sentimiento debido a que Cohere cambió la política de uso de su modelo Classify, el cual era utilizado para esta funcionalidad.
 
+La documentación del proyecto se encuentra en:
 
 Documentación API: documentacion_api.json
 
-Documentación de ChatBot Bill: Documentacion ChatBot_Bill.pdf
+Documentación de ChatBot Bill: Documentacion_ChatBot_Bill_v2.pdf
 
 En la carpeta AI-102 se encuentra el material de estudio para la certificación em formato pdf.
 
